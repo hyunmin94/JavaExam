@@ -23,7 +23,7 @@ class BasicClass extends AbstractClass{
 
 	@Override
 	public String AbstractMethod() {
-		return "추상메소드 호출";
+		return "오버라이딩 추상메소드 호출";
 	}
 }
 
