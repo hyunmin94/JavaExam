@@ -21,6 +21,7 @@ public class OverridingTest {
 		
 		// 자식클래스 객체 생성
 		Dog dog = new Dog();
+		
 		// 자식클래스에 오버라이딩된 bark 메서드가 호출된다.
 		dog.bark("이름", 1);
 	}
