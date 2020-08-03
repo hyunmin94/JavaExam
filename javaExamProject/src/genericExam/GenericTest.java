@@ -20,5 +20,6 @@ public class GenericTest {
 		// 컴파일시 오류 발생
 		// GenericTestClass<int> genericObj = new GenericTestClass<>();
 	}
+	
 }
 
