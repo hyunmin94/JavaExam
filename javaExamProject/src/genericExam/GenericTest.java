@@ -19,7 +19,7 @@ public class GenericTest {
 		genericObj.setObj(7);
 		System.out.println(genericObj.getObj());
 		
-		// 컴파일시 오류 발생
+		// 컴파일시 에러 발생
 		// GenericTestClass<int> genericObj = new GenericTestClass<>();
 	}
 }
