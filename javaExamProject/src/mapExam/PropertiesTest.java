@@ -54,7 +54,7 @@ public class PropertiesTest {
 		Collection<Object> colValues = prop.values();
 		Iterator<Object> itv = colValues.iterator();
 		while(itv.hasNext()) {
-			System.out.println("keySet : " + itv.next());
+			System.out.println("values : " + itv.next());
 		}
 		
 // 8 -- 해당하는 key의 value 값을 변경 
