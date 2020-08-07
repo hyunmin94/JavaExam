@@ -17,7 +17,7 @@ public class LambdaSort {
 			System.out.println("정렬 전 : " + person);
 		}
 
-		// 익명클래스를 활용한 내림차순 정렬
+		// 람다표현식을 활용한 내림차순 정렬
 		Collections.sort(personList, (Person o1, Person o2) -> {
 			// 1 -- 내림 차순 정렬
 			int result = 1;
